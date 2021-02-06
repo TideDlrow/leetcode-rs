@@ -43,6 +43,5 @@ pub fn equal_substring(s: String, t: String, max_cost: i32) -> i32 {
 }
 #[test]
 fn test(){
-    5.0.powi(3);
     println!("{}",equal_substring("abcd".to_string(),"bcdf".to_string(),3))
 }
