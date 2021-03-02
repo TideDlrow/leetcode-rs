@@ -80,7 +80,7 @@ fn get_middle_from_btree_map(map: &BTreeMap<i32, usize>, len: usize) -> f64 {
     let mut iter = map.iter();
     while index <= middle_index {
         let (key, value) = iter.next().unwrap();
-        for i in 0..*value {
+        for _ in 0..*value {
             if index == middle_index - 1 {
                 num1 = *key;
             }
