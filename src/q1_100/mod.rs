@@ -6,3 +6,5 @@ mod q61;
 mod q96;
 mod q49;
 mod q14;
+mod q54;
+mod q59;
